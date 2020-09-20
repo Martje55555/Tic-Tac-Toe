@@ -6,11 +6,7 @@ using namespace std;
 void drawBoard(char board[][3]);
 char checkWinner3by3(char board[][3]);
 int counter = 0;
-//
-// The main funciton is provided for you.
-//
-// DO NOT MODIFY THE MAIN FUNCTION
-//
+
 int main()
 {
     // This array of chars represents the game board, and it holds the content
@@ -161,13 +157,10 @@ int main()
 }
 
 
-//
+
 // Prints the game board
 // We know the board is 3 by 3 so we don't need to have the number of rows as
 // a parameter.
-//
-// WRITE THIS FUNCTION
-//
 void drawBoard(char board[][3])
 {
 	counter++;
@@ -205,9 +198,7 @@ void drawBoard(char board[][3])
 // Checks the whole board if there is a winner.
 // We know the board is 3 by 3 so we don't need to have the number of rows as
 // a parameter.
-//
-// WRITE THIS FUNCTION
-//
+
 char checkWinner3by3(char board[][3])
 {
 	char user = ' ';
