@@ -186,10 +186,6 @@ void drawBoard(char board[][3])
 		cout << endl;
 		cout << row  << endl;
 	}
-
-
-	
-
 	
 }
 
